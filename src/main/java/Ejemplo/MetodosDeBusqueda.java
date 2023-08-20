@@ -8,7 +8,7 @@ import java.util.*;
  *
  * @author XxJuniorMxX
  */
-public class Burbuja 
+public class MetodosDeBusqueda 
 {
 
     public static void constante() {
@@ -24,9 +24,9 @@ public class Burbuja
         
        // constante();
         //ordenar();
-        //metodoBurbuja();
-        //metodoSeleccion();
-        metodoInsercion();
+        //metodoBurbuja();//Buble Sort
+        //metodoSeleccion();//Selection Sort
+        metodoInsercion();//Insert Sort Parecido a Ordenar Cartas de Una Baraja 
         
         
         
@@ -52,10 +52,9 @@ public class Burbuja
         return sortSeleccion(arreglo,inicio+1);
     }
     
-    //
+    //Metodo Burbuja
     public static void metodoBurbuja(){
-     int[] edad = {3,5,8,1,5};
-        
+        int[] edad = {3,5,8,1,5};  
         System.out.println("Arreglo Ordenado");
         for (int mostrar : edad) {
             System.out.println(mostrar + " ");
