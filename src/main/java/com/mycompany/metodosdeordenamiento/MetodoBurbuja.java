@@ -3,9 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Project/Maven2/JavaApp/src/main/java/${packagePath}/${mainClassName}.java to edit this template
  */
 package com.mycompany.metodosdeordenamiento;
-
-import java.util.Scanner;
-import java.util.*;
 import javax.swing.JOptionPane;
 /**
  *
@@ -18,8 +15,6 @@ public class MetodoBurbuja {
         int aux;
         int [] numeros =new int[num];
         for (int i = 0; i < numeros.length; i++) {
-            //int num1 = Integer.parseInt(JOptionPane.showInputDialog(null,"Ingrese numero " + (i+1))); 
-            //numeros[i]= num1;
             numeros[i]=(int)(Math.random()*20)+1;
         }
         for (int numero : numeros) {
